@@ -1,7 +1,6 @@
 import Background from "./components/background";
-// import Body from "./components/body";
-import Nav from "./components/nav";
-// import Text from "./components/text";
+// import Nav from "./components/nav";
+
 
 import React from 'react'
 
@@ -9,10 +8,8 @@ import React from 'react'
 function App() {
   return (
     <div>
-      <Nav/>
+      {/* <Nav/> */}
       <Background/>
-      {/* <Text/> */}
-      {/* <Body/> */}
     </div>
   );
 }
