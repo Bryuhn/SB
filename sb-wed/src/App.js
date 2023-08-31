@@ -8,7 +8,7 @@ import Text from "./components/text";
 function Welcome() {
   return (
     <div className="">
-=     <NavBar/>
+      <NavBar/>
       <Bgtester/>
       <Text/>
     </div>

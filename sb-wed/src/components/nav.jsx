@@ -28,9 +28,9 @@ const NavBar = () => {
     ]
     
   return (
-    <div className="relative z-20 w-full h-18 flex justify-between items-center uppercase shadow-md bg-green-500">
-      <div className="ml-32 text-6xl font-bold bg-red-300 max-lg:ml-5">S&B</div>
-        <ul className='bg-orange-200 flex justify-center items-center absolute right-24 font-Montserrat text-md font-light max-xl:hidden'>
+    <div className="relative z-20 w-full h-20 flex justify-between items-center uppercase shadow-md">
+      <div className="ml-32 text-6xl font-bold">S&B</div>
+        <ul className='flex justify-center items-center absolute right-24 font-Montserrat text-md font-light max-xl:hidden'>
           {links.map(({id,link}) => (
             <li
               key={id}
