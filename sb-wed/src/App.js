@@ -1,17 +1,18 @@
-import Background from "./components/background";
-// import Nav from "./components/nav";
-
-
+import Bgtester from "./components/bg";
+import NavBar from "./components/nav";
 import React from 'react'
+import Text from "./components/text";
 
 
-function App() {
+
+function Welcome() {
   return (
     <div>
-      {/* <Nav/> */}
-      <Background/>
+=      <NavBar/>
+      <Bgtester/>
+      <Text/>
     </div>
   );
 }
 
-export default App;
+export default Welcome;
