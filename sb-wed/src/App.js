@@ -1,7 +1,8 @@
-import Bgtester from "./components/bg";
 import NavBar from "./components/nav";
 import React from 'react'
-import Text from "./components/text";
+import Coming from "./components/yourcoming";
+import DefaultBg from "./components/bg";
+
 
 
 
@@ -9,8 +10,8 @@ function Welcome() {
   return (
     <div className="">
       <NavBar/>
-      <Bgtester/>
-      <Text/>
+      <DefaultBg/>
+      <Coming/>
     </div>
   );
 }

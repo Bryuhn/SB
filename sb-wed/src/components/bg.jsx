@@ -2,7 +2,7 @@ import React from 'react'
 import bottom from "../assests/bottom.jpg"
 import top from "../assests/top.jpg"
 
-const Bgtester = () => {
+const DefaultBg = () => {
   return (
     <div>
         <img
@@ -19,4 +19,4 @@ const Bgtester = () => {
   )
 }
 
-export default Bgtester
+export default DefaultBg
