@@ -1,17 +1,14 @@
-import NavBar from "./components/nav";
 import React from 'react'
-import Coming from "./components/yourcoming";
+import NavBar from "./components/nav";
 import DefaultBg from "./components/bg";
-
-
-
+import Travel from "./components/travelaccom";
 
 function Welcome() {
   return (
     <div className="">
       <NavBar/>
       <DefaultBg/>
-      <Coming/>
+      <Travel/>
     </div>
   );
 }

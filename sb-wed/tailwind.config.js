@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -7,12 +8,12 @@ module.exports = {
     extend: {
       fontFamily:{
         Amatic: "'Amatic SC, cursive",
-        Montserrat: "Montserrat, sans-serif"
-        
-
+        Montserrat: "Montserrat"
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }
 
