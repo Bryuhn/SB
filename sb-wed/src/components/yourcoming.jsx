@@ -25,7 +25,7 @@ const Coming = () => {
             <p className='mb-0.5'>&</p>
             <p className='mt-0.5'>BRIAN</p>
         </div>
-        <div className='flex justify-center text-3xl '>
+        <div className='flex justify-center font-Montserrat '>
             <p>5 AOÛT 2023</p>
         </div>
     </div>

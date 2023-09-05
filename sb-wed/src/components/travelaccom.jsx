@@ -55,13 +55,13 @@ const Travel = () => {
             <p className='p-2 font-Montserrat font-light italic'>Dites nous si vous avez des questions.</p>
         </div>
         <div className='flex justify-center gap-1 text-4xl p-5'>
-                <p className='mt-0.5 font-Amatic'>SOPHIE</p>
-                <p className='mb-0.5 font-Amatic'>&</p>
-                <p className='mt-0.5 font-Amatic'>BRIAN</p>
-            </div>
-            <div className='flex justify-center text-3xl pb-2'>
-                <p>5 AOÛT 2023</p>
-            </div>
+            <p className='mt-0.5'>SOPHIE</p>
+            <p className='mb-0.5'>&</p>
+            <p className='mt-0.5'>BRIAN</p>
+        </div>
+        <div className='flex justify-center font-Montserrat '>
+            <p>5 AOÛT 2023</p>
+        </div>
     </div>
         <div className='w-full h-full flex justify-center items-center object-cover max-xl:order-1  mt-10'>
             <img
